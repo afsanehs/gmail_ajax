@@ -1,0 +1,45 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<style>
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-3 bg-warning text-dark">
+      <h3>Liste des emails</h3>
+      <ul id="book-list">
+      <% @emails.each do |email| %>
+      <li> "<%= email.objet %>" </li>
+      <% end %>
+      </ul>
+    </div>
+
+    <div class="col-9 bg-light text-dark">
+      <h3>Email sélectionné</h3>
+    </div>
+
+    <div class="form">
+    <%= form_tag(method: :post, class: "form") do %>
+    <label for="objet">Objet 
+    <%= text_field_tag :objet %>
+
+    <label for="body">body 
+    <%= text_field_tag :text%>
+
+    <%= submit_tag 'create', :name => 'commit'%>
+  <% end %>
+  </div>
+</div>
+
+</body>
+
+
+</html>

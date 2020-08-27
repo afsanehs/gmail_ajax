@@ -459,3 +459,34 @@ Processing by EmailController#index as HTML
 Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.3ms | Allocations: 6519)
 
 
+Started GET "/" for ::1 at 2020-08-27 23:33:04 +0200
+Processing by EmailController#index as HTML
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.9ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 18.7ms | Allocations: 1324)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 81ms (Views: 70.7ms | ActiveRecord: 0.9ms | Allocations: 6494)
+
+
+Started GET "/" for ::1 at 2020-08-27 23:35:37 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EmailController#index as HTML
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (1.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 18.0ms | Allocations: 5273)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 26.1ms | ActiveRecord: 2.9ms | Allocations: 10059)
+
+
+Started GET "/" for ::1 at 2020-08-27 23:41:10 +0200
+Processing by EmailController#index as HTML
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.3ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1031)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.3ms | Allocations: 5270)
+
+

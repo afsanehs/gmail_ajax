@@ -27,7 +27,7 @@
     </div>
 
     <div class="form">
-    <%= form_tag(method: :post, class: "form") do %>
+    <%= form_tag(method: :post, class: "form", remote: true) do %>
     <label for="objet">Objet 
     <%= text_field_tag :objet %>
 

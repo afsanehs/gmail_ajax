@@ -490,3 +490,542 @@ Processing by EmailController#index as HTML
 Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.3ms | Allocations: 5270)
 
 
+Started GET "/" for ::1 at 2020-08-27 23:45:31 +0200
+Processing by EmailController#index as HTML
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 1329)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.7ms | Allocations: 6501)
+
+
+Started GET "/" for ::1 at 2020-08-27 23:50:21 +0200
+Processing by EmailController#index as HTML
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1325)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.2ms | Allocations: 6501)
+
+
+Started POST "/?class=form&method=post&remote=true" for ::1 at 2020-08-27 23:50:26 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-08-27 23:55:26 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for ::1 at 2020-08-27 23:55:42 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for ::1 at 2020-08-27 23:56:05 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for ::1 at 2020-08-27 23:57:35 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EmailController#index as HTML
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (1.5ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 19.0ms | Allocations: 5234)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 44.9ms | ActiveRecord: 3.0ms | Allocations: 10005)
+
+
+Started POST "/?class=form&method=post&remote=true" for ::1 at 2020-08-27 23:57:39 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-27 23:58:03 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-27 23:58:26 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-27 23:58:38 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EmailController#index as HTML
+  Parameters: {"class"=>"form", "method"=>"post", "remote"=>"true"}
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (1.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 30.9ms | Allocations: 5234)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 95ms (Views: 86.6ms | ActiveRecord: 3.6ms | Allocations: 10004)
+
+
+Started POST "/?class=form&method=post&remote=true" for ::1 at 2020-08-27 23:58:42 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info/routes?path=email" for ::1 at 2020-08-27 23:59:06 +0200
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"email"}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 2008)
+
+
+Started GET "/rails/info/routes?path=email" for ::1 at 2020-08-27 23:59:07 +0200
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"email"}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1177)
+
+
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-27 23:59:34 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:00:11 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EmailController#index as HTML
+  Parameters: {"class"=>"form", "method"=>"post", "remote"=>"true"}
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (1.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 5521)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 38.9ms | ActiveRecord: 2.7ms | Allocations: 11073)
+
+
+Started POST "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:00:15 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:02:07 +0200
+  
+SyntaxError (/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:5: unterminated string meets end of file
+/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:5: unterminated string meets end of file
+config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:5: unterminated string meets end of file
+config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:5: unterminated string meets end of file
+config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:03:13 +0200
+  
+SyntaxError (/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:4: unterminated string meets end of file
+/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:4: unterminated string meets end of file
+config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:4: unterminated string meets end of file
+config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:4: unterminated string meets end of file
+config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:03:21 +0200
+  
+SyntaxError (/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:5: unterminated string meets end of file
+/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:5: unterminated string meets end of file
+config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:5: unterminated string meets end of file
+config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:5: unterminated string meets end of file
+config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:04:46 +0200
+  
+SyntaxError (/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:4: unterminated string meets end of file
+/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:4: unterminated string meets end of file
+config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:4: unterminated string meets end of file
+config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:4: unterminated string meets end of file
+config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:04:59 +0200
+  
+SyntaxError (/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:4: unterminated string meets end of file
+/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:4: unterminated string meets end of file
+config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:4: unterminated string meets end of file
+config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:4: unterminated string meets end of file
+config/routes.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:05:21 +0200
+  
+SyntaxError (/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:5: unterminated string meets end of file
+/Users/afsaneh/Desktop/gmail_ajax/config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:5: unterminated string meets end of file
+config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:5: unterminated string meets end of file
+config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:5: unterminated string meets end of file
+config/routes.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:05:38 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:06:13 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:06:26 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:07:01 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:07:16 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:07:30 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:08:53 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EmailController#index as HTML
+  Parameters: {"class"=>"form", "method"=>"post", "remote"=>"true"}
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (1.3ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 18.2ms | Allocations: 5250)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 37.9ms | ActiveRecord: 2.6ms | Allocations: 10018)
+
+
+Started POST "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:08:57 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:09:08 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:11:40 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EmailController#index as HTML
+  Parameters: {"class"=>"form", "method"=>"post", "remote"=>"true"}
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (1.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 18.8ms | Allocations: 5236)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 36.4ms | ActiveRecord: 2.1ms | Allocations: 10004)
+
+
+Started POST "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:11:44 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:14:01 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EmailController#index as HTML
+  Parameters: {"class"=>"form", "method"=>"post", "remote"=>"true"}
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (1.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 451.1ms | Allocations: 155307)
+Completed 500 Internal Server Error in 460ms (ActiveRecord: 2.0ms | Allocations: 157015)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `email_create' for #<#<Class:0x00007f85dfa7f2d0>:0x00007f85dfa7d638>
+Did you mean?  email_create_url):
+    27:     </div>
+    28: 
+    29:     <div class="form">
+    30:     <%= form_tag(email_create, method: :post, class: "form", remote: true) do %>
+    31:     <label for="objet">Objet 
+    32:     <%= text_field_tag :objet %>
+    33: 
+  
+app/views/email/index.html.erb:30
+Started GET "/?class=form&method=post&remote=true" for ::1 at 2020-08-28 00:14:28 +0200
+Processing by EmailController#index as HTML
+  Parameters: {"class"=>"form", "method"=>"post", "remote"=>"true"}
+  Rendering email/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/email/index.html.erb:19
+  Rendered email/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1177)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.2ms | Allocations: 6347)
+
+
+Started POST "/email_create" for ::1 at 2020-08-28 00:14:31 +0200
+Processing by EmailController#create as JS
+  Parameters: {"objet"=>"p", "text"=>"po", "commit"=>"create"}
+Completed 500 Internal Server Error in 266ms (ActiveRecord: 0.0ms | Allocations: 98919)
+
+
+  
+NameError (undefined local variable or method `email_params' for #<EmailController:0x00007f85d8f8f358>
+Did you mean?  email_create_path):
+  
+app/controllers/email_controller.rb:7:in `create'
+Started POST "/email_create" for ::1 at 2020-08-28 00:14:37 +0200
+Processing by EmailController#create as JS
+  Parameters: {"objet"=>"p", "text"=>"po", "commit"=>"create"}
+Completed 500 Internal Server Error in 317ms (ActiveRecord: 0.0ms | Allocations: 98908)
+
+
+  
+NameError (undefined local variable or method `email_params' for #<EmailController:0x00007f85d85520e8>
+Did you mean?  email_create_path):
+  
+app/controllers/email_controller.rb:7:in `create'
+Started POST "/email_create" for ::1 at 2020-08-28 00:14:39 +0200
+Processing by EmailController#create as JS
+  Parameters: {"objet"=>"p", "text"=>"po", "commit"=>"create"}
+Completed 500 Internal Server Error in 259ms (ActiveRecord: 0.0ms | Allocations: 98908)
+
+
+  
+NameError (undefined local variable or method `email_params' for #<EmailController:0x00007f85df9bcd98>
+Did you mean?  email_create_path):
+  
+app/controllers/email_controller.rb:7:in `create'
+Started POST "/email_create" for ::1 at 2020-08-28 00:14:40 +0200
+Processing by EmailController#create as JS
+  Parameters: {"objet"=>"p", "text"=>"po", "commit"=>"create"}
+Completed 500 Internal Server Error in 309ms (ActiveRecord: 0.0ms | Allocations: 98911)
+
+
+  
+NameError (undefined local variable or method `email_params' for #<EmailController:0x00007f85d9cf1b90>
+Did you mean?  email_create_path):
+  
+app/controllers/email_controller.rb:7:in `create'
+Started POST "/email_create" for ::1 at 2020-08-28 00:14:42 +0200
+Processing by EmailController#create as JS
+  Parameters: {"objet"=>"p", "text"=>"po", "commit"=>"create"}
+Completed 500 Internal Server Error in 277ms (ActiveRecord: 0.0ms | Allocations: 98909)
+
+
+  
+NameError (undefined local variable or method `email_params' for #<EmailController:0x00007f85d9e4e3d0>
+Did you mean?  email_create_path):
+  
+app/controllers/email_controller.rb:7:in `create'
+Started POST "/email_create" for ::1 at 2020-08-28 00:14:43 +0200
+Processing by EmailController#create as JS
+  Parameters: {"objet"=>"p", "text"=>"po", "commit"=>"create"}
+Completed 500 Internal Server Error in 286ms (ActiveRecord: 0.0ms | Allocations: 98908)
+
+
+  
+NameError (undefined local variable or method `email_params' for #<EmailController:0x00007f85e0053dc8>
+Did you mean?  email_create_path):
+  
+app/controllers/email_controller.rb:7:in `create'
